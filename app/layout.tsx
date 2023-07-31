@@ -42,7 +42,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={clsx(
-          `${inter.variable} bg-black text-white min-h-screen font-sans`
+          `${inter.variable} bg-black text-white min-h-screen font-sans`,
         )}>
         {children}
       </body>

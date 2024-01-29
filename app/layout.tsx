@@ -1,7 +1,7 @@
 import siteConfig from "@/lib/siteConfig";
 import "@/styles/global.css";
 import clsx from "clsx";
-import { Metadata } from "next";
+import { type Metadata } from "next";
 import { Inter } from "next/font/google";
 
 const inter = Inter({
@@ -13,6 +13,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: siteConfig.title,
   description: siteConfig.description,
+  metadataBase: new URL(siteConfig.url),
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" },

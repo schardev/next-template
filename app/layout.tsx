@@ -1,6 +1,6 @@
 import siteConfig from "@/lib/siteConfig";
+import { cn } from "@/lib/utils";
 import "@/styles/global.css";
-import clsx from "clsx";
 import { type Metadata } from "next";
 import { Inter } from "next/font/google";
 
@@ -29,8 +29,8 @@ export const metadata: Metadata = {
     },
     description: siteConfig.description,
     siteName: siteConfig.title,
-    // url: <site url>,
-    // images: [ <og image> ],
+    url: siteConfig.url,
+    // images: [ "og image" ],
   },
 };
 
@@ -42,8 +42,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={clsx(
-          `${inter.variable} bg-black text-white min-h-screen font-sans`,
+        className={cn(
+          inter.variable,
+          "bg-black text-white min-h-screen font-sans",
         )}>
         {children}
       </body>

@@ -10,7 +10,7 @@ dependencies:
     version: 2.1.0
   next:
     specifier: ^15.0.0
-    version: 15.4.9(react-dom@19.0.0)(react@19.0.0)
+    version: 15.4.10(react-dom@19.0.0)(react@19.0.0)
   react:
     specifier: ^19.0.0
     version: 19.0.0
@@ -445,8 +445,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@next/env@15.4.9:
-    resolution: {integrity: sha512-OYR0RulK5phnbxxzcLE4/ECgfx1PL3EHrDbjyelJ7jauaO+/Qvj5gG8JPMltB51CygC2KrZ0aAfYLjPYjYY17A==}
+  /@next/env@15.4.10:
+    resolution: {integrity: sha512-knhmoJ0Vv7VRf6pZEPSnciUG1S4bIhWx+qTYBW/AjxEtlzsiNORPk8sFDCEvqLfmKuey56UB9FL1UdHEV3uBrg==}
     dev: false
 
   /@next/eslint-plugin-next@15.0.1:
@@ -2532,10 +2532,9 @@ packages:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: true
 
-  /next@15.4.9(react-dom@19.0.0)(react@19.0.0):
-    resolution: {integrity: sha512-/NedNmbiH4Umt/7SohT9VKxEdBt02Lj33xHrukE7d8Li6juT+75sEq4a4U06jggrvdbklKgr78OZEyWZ8XRrtw==}
+  /next@15.4.10(react-dom@19.0.0)(react@19.0.0):
+    resolution: {integrity: sha512-itVlc79QjpKMFMRhP+kbGKaSG/gZM6RCvwhEbwmCNF06CdDiNaoHcbeg0PqkEa2GOcn8KJ0nnc7+yL7EjoYLHQ==}
     engines: {node: ^18.18.0 || ^19.8.0 || >= 20.0.0}
-    deprecated: This version has a security vulnerability. Please upgrade to a patched version. See https://nextjs.org/blog/security-update-2025-12-11 for more details.
     hasBin: true
     peerDependencies:
       '@opentelemetry/api': ^1.1.0
@@ -2554,7 +2553,7 @@ packages:
       sass:
         optional: true
     dependencies:
-      '@next/env': 15.4.9
+      '@next/env': 15.4.10
       '@swc/helpers': 0.5.15
       caniuse-lite: 1.0.30001763
       postcss: 8.4.31
